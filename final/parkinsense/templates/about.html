@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>ParkinSon</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+
+        <style>
+            body {
+                background-image: url('{{ url_for("static", filename="img/bc.png") }}');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="/">ParkinSon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="/">About</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row mt-5">
+                <div style="text-align: center;margin-top:0rem">
+                
+                    <a href="/" style="margin-left: 90%;margin-top:0rem">
+                        <img class="img-fluid w-50" alt="ParkinSon Logo" src="{{ url_for('static', filename='img/logo.png') }}" style="margin-top: 0rem;" />
+                    </a>
+                </div>
+                <h4 class="text-center font-italic w-100 mt-5" style="color: Tomato; font-size: 50px;margin-bottom: 0rem;margin-top:0rem">Prediction for Parkinson's disease</h4>
+
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <p style="font-family: Arial, sans-serif; font-size: 16px; color: #333; line-height: 1.5; margin-bottom: 1em;">
+                        Welcome to our website dedicated to Parkinson's disease, where we use advanced machine learning algorithms like KNN and Random Forest to provide accurate and reliable information on this progressive neurological disorder. Our mission is to provide the most accurate information possible to help those affected by Parkinson's disease, as well as their caregivers and loved ones.
+                    </p>
+                    <p style="font-family: Arial, sans-serif; font-size: 16px; color: #333; line-height: 1.5; margin-bottom: 1em;">
+                        Our website is powered by state-of-the-art machine learning algorithms that have been trained on large datasets of Parkinson's disease patients. Using these algorithms, we are able to provide accurate predictions and analysis of the disease, including its symptoms, progression, and available treatments..
+                    </p>
+                    <p style="font-family: Arial, sans-serif; font-size: 16px; color: #333; line-height: 1.5; margin-bottom: 1em;">
+                        Our team, who work together to ensure that our algorithms are accurate, reliable, and up-to-date. Our algorithms have been rigorously tested and have shown an accuracy rate of 95% for KNN and 82% for Random Forest, making them some of the most accurate and reliable algorithm available for understanding and managing Parkinson's disease.
+                    </p>
+                    <p style="font-family: Arial, sans-serif; font-size: 16px; color: #333; line-height: 1.5; margin-bottom: 1em;">
+                        Whether you are newly diagnosed with Parkinson's disease, a caregiver, or simply interested in learning more about this condition, our website is here to help. We invite you to explore our articles, resources, and interactive tools powered by our advanced machine learning algorithms to find the support and information you need to manage Parkinson's disease effectively and improve your quality of life.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

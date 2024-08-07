@@ -1,0 +1,11 @@
+
+.result {
+    font-size: 1.2rem; /* Adjust the font size */
+    color: #03ba22; /* Set the text color */
+    background-color: #f8f9fa; /* Set the background color */
+    border: 1px solid #dee2e6; /* Add a border */
+    border-radius: 0.25rem; /* Add rounded corners */
+    padding: 1rem; /* Add padding */
+    margin-top: 2rem; /* Add margin-top */
+    text-align: center; /* Center the text */
+}
